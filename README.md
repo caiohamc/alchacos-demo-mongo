@@ -1,25 +1,32 @@
-# Getting Started
+# MongoDB Demo
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## Endpoints
+* MONGO
+  * POST    /api/v1/foos/traditional (**recebe o request abaixo**)
+  * GET     /api/v1/foos/traditional
+* REACTIVE MONGO
+  * POST    /api/v1/foos/reactive (**recebe o request abaixo**)
+  * GET     /api/v1/foos/reactive
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.5/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.5/maven-plugin/reference/html/#build-image)
-* [Spring Data MongoDB](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#data.nosql.mongodb)
-* [Spring Reactive Web](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#web.reactive)
+## REQUEST
+
+* BODY 
+
+        {
+            "nome": "Nome Sobrenome", 
+            "codigo": 1
+        }
+
+## DOCUMENTAÇÕES
+
+* [Apache Maven](https://maven.apache.org/guides/index.html)
+* [Plugin Spring Boot Maven](https://docs.spring.io/spring-boot/docs/3.2.5/maven-plugin/reference/html/)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#web)
+* [Spring Reactive Web](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#web.reactive)
+* [Spring Data MongoDB](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#data.nosql.mongodb)
 * [Spring Data Reactive MongoDB](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#data.nosql.mongodb)
-* [Validation](https://docs.spring.io/spring-boot/docs/3.2.5/reference/htmlsingle/index.html#io.validation)
-
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
-* [Building a Reactive RESTful Web Service](https://spring.io/guides/gs/reactive-rest-service/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
-* [Validation](https://spring.io/guides/gs/validating-form-input/)
-
+* [Construindo serviços REST com Spring](https://spring.io/guides/tutorials/rest/)
+* [Servindo com Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+* [Accessando Dados com MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
+* [Criando um Webservice RESTful](https://spring.io/guides/gs/rest-service/)
+* [Criando um Webservice RESTful Reativo](https://spring.io/guides/gs/reactive-rest-service/)
